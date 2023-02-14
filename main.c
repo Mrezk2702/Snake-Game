@@ -56,9 +56,7 @@ void main(void)
 		LCD_VidClearDisplay();
 		_delay_ms(2);
 
-		//Global_U8LCDArr[Loc_Snake1HeadRow][Loc_Snake1HeadCol]=1;
-		//Global_U8LCDArr[Loc_Snake2Row][Loc_Snake2Col]=1;
-		//Global_U8LCDArr[Loc_Snake3Row][Loc_Snake3Col]=1;
+		
 		for(u8 iterator=0;iterator<=snake_head;snake_head++)
 		{
 			Global_U8LCDArr[snake_row[iterator]][snake_col[iterator]]=1;
